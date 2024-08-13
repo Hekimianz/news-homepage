@@ -10,8 +10,142 @@
       href="./assets/images/favicon-32x32.png"
     />
     <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="./assets/images/logo.svg" alt="logo" />
+      <nav class="desktop__nav">
+        <ul class="desktop__menu hidden">
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer">New</a>
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Popular</a
+            >
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Trending</a
+            >
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Categories</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile__nav">
+        <img src="./assets/images/icon-menu.svg" alt="open menu" />
+        <ul class="mobile__menu hidden">
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer">New</a>
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Popular</a
+            >
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Trending</a
+            >
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Categories</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro__section">
+        <picture>
+          <source
+            srcset="./assets/images/image-web-3-mobile.jpg"
+            media="(max-width: 768px)"
+          />
+          <img src="./assets/images/image-web-3-desktop.jpg" />
+        </picture>
+        <div class="intro__cta">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="intro__cta--right">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button>READ MORE</button>
+          </div>
+        </div>
+      </section>
+      <section class="news__section">
+        <h2>New</h2>
+        <div class="news__cont">
+          <div class="news__article">
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="news__article">
+            <h3>The Downsides of AI Artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="news__article">
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="recommended__section">
+        <div class="recommended">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="retro pc" />
+          <div class="recommended__right">
+            <span>01</span>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <div class="recommended">
+          <img src="./assets/images/image-top-laptops.jpg" alt="retro pc" />
+          <div class="recommended__right">
+            <span>02</span>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <div class="recommended">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="retro pc" />
+          <div class="recommended__right">
+            <span>03</span>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
