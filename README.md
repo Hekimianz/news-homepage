@@ -20,15 +20,15 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 <img src="./mobileScreen.png" height="800"/>
 <img src="./desktopScreen.png" />
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Hekimianz/news-homepage)
+- Live Site URL: [Live](https://hekimianz.github.io/news-homepage/)
 
 ## My process
 
