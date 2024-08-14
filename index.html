@@ -20,10 +20,11 @@
     <script src="app.js" defer></script>
   </head>
   <body>
+    <div class="overlay hidden"></div>
     <header>
       <img src="./assets/images/logo.svg" alt="logo" />
       <nav class="desktop__nav">
-        <ul class="desktop__menu hidden">
+        <ul class="desktop__menu">
           <li>
             <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
           </li>
@@ -48,8 +49,17 @@
         </ul>
       </nav>
       <nav class="mobile__nav">
-        <img src="./assets/images/icon-menu.svg" alt="open menu" />
+        <img
+          class="mobile__menu--open"
+          src="./assets/images/icon-menu.svg"
+          alt="open menu"
+        />
         <ul class="mobile__menu hidden">
+          <img
+            class="mobile__menu--close"
+            src="./assets/images/icon-menu-close.svg"
+            alt="close menu"
+          />
           <li>
             <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
           </li>
